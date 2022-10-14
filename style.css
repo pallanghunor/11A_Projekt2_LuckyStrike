@@ -4,10 +4,82 @@ body{
 
 .fejlec{
     width: 100%;
-    height: 250px;
-    color: #2C3639;
+    height: 275px;
+    background-color: #2C3639;
+}
+.musztafatext{
+    color: azure;
+    font-family: Trebuchet MS;
+    position: absolute;
+    margin-top: 75px;
+    margin-bottom: auto;
+    margin: 25px;
+    font-size: 3vw;
+}
+.kep{
+    position: absolute;
+    margin-top: 90px;
+    margin-bottom: auto;
+    margin-left: 25px;
+    border-radius: 50%;
 }
 .mainkep{
     width: 50%;
     height: 100%;
+}
+#menu {
+    width: auto;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+#menu ul {
+    list-style-type: none; /* nincs bogyó*/
+    margin: 0; /* eltartások kikapcsolása*/
+    padding: 0; /* eltartások kikapcsolása*/
+
+    background-color: #bbb;
+    overflow: hidden;
+}
+
+#menu ul li {
+    float: left;
+    border-right: 1px solid #eee;
+}
+#menu ul li:last-child {
+    border: none;
+    /* float: right; */
+}
+#menu ul li a {
+  display: block;
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+   background-color: #222;
+}
+.valami{
+    width: 500px;
+    background-color: #bbb;
+    float: left;
+}
+.musztafalife{
+    background-color: #bbb;
+    width: 500px;
+    float: left;
+}
+.musztafapalya{
+    width: 500px;
+    background-color: #bbb;
+}
+.palyatext{
+    width: 500px;
+    background-color: #bbb;
 }
