@@ -1,16 +1,13 @@
-/*Musztafa*/
-.fejlec{
-    width: 100%;
-    height: 250px;
-    background-color: #2C3639;
-}
-
 body{
     margin: 0;
 }
 
+.fejlec{
+    width: 100%;
+    height: 250px;
+    color: #2C3639;
+}
 .mainkep{
     width: 50%;
     height: 100%;
-
 }
