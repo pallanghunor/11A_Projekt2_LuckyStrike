@@ -7,7 +7,72 @@ body{
     height: 250px;
     color: #2C3639;
 }
-.mainkep{
+
+#lefthalf, #righthalf{
     width: 50%;
+    position: absolute;
     height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#lefthalf {
+    left: 0;
+}
+
+#righthalf {
+    right: 0;
+}
+
+#lefthalf img, #righthalf img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 50px;
+    transform: scale(1);
+    transition: 0.7s ease-in-out;
+}
+
+#righthalf img{
+    bottom: 90px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    opacity: 0.4;
+    background-color: black;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+#lefthalf:hover .overlay,
+#righthalf:hover .overlay{
+    opacity: 0;
+}
+
+#lefthalf:hover img, #righthalf:hover img{
+    transform: scale(1.1);
+}
+
+#lefthalf:hover .text, #righthalf:hover .text{
+    opacity: 1;
 }
