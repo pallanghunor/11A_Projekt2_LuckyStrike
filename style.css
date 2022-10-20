@@ -1,5 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
+    background-color: #2C3639;
 }
 
 .fejlec{
@@ -76,3 +83,50 @@ body{
 #lefthalf:hover .text, #righthalf:hover .text{
     opacity: 1;
 }
+
+/* Menu */
+
+li, a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #202e32;
+}
+
+.home {
+    height: 50px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.home:hover {
+    filter: invert(46%) sepia(89%) saturate(1627%) hue-rotate(160deg) brightness(92%) contrast(101%);;
+}
+
+.menu_links {
+    list-style: none;
+}
+
+.menu_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.menu_links li a:hover{
+    color: darkcyan;
+}
+
