@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     background-color: #2C3333;
@@ -169,10 +173,21 @@ li, a{
     color: white;
 }
 
-.row2{
+.row_placeholder{
+    height: 10vh;
+    width: 100%;
+    background-image: url(./img/8562939_25544.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.row2, .row4{
     height: 90vh;
     background-color: #0c1821;
     position: relative;
+    
 }
 
 .row2 .cim{
@@ -246,3 +261,19 @@ li, a{
     color: white;
     text-align: justify;
 }
+
+.row4 .kep{
+    height: 90vh;
+    width: 35%;
+    position: relative;
+    float: left;
+}
+
+.row4 .kep img{
+    height: 60vh;
+    width: auto;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
