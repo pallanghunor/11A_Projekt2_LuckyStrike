@@ -153,6 +153,69 @@ li, a{
     width: fit-content;
 }
 
+#wrapper {
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2C3639;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+#main {
+    width: 100%;
+}
+
+.oszlop2{
+    float: left;
+    width: 896px;
+    background-color: #2C3639;
+    margin: 2px;
+}
+.oszlop2 img {
+    margin: 10px;
+    width: 876px;
+    height: 800px;
+}
+.oszlop2 p{
+    margin: 10px;
+    padding: 5px;
+    background-color: honeydew;
+    text-align: justify;
+}
+
+.clear {
+    clear: both;
+}
+
+.oszlop4{
+    float: left;
+    margin: 5px;
+    width: calc(25% - 10px);
+}
+
+.oszlop4 img {
+    width: 100%;
+    height: 300px;
+}
+
+.oszlop4 p{
+    margin: 5px;
+    padding: 5px;
+    background-color: honeydew;
+    text-align: justify;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid white;
+}
+#footer p{
+    color: white;
+    font-style: italic;
+}
+
 .row1 .kep img{
     height: 50vh;
     width: auto;
