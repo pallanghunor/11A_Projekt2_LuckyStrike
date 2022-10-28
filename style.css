@@ -325,6 +325,10 @@ li, a{
     text-align: justify;
 }
 
+.row4{
+    overflow: hidden;
+}
+
 .row4 .kep{
     height: 90vh;
     width: 35%;
