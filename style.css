@@ -336,7 +336,38 @@ li, a{
     height: 60vh;
     width: auto;
     position: absolute;
-    top: 20%;
+    top: 20vh;
     left: 10%;
 }
 
+.row4 .kep .text{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    position: absolute;
+    top: calc(20vh + 60vh);
+    left: 10%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row4 .cim{
+    width: 65%;
+    height: 20vh;
+    float: left;
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+}
+
+.row4 .text{
+    float: left;
+    width: 65%;
+    height: calc(90vh - 20vh);
+}
+
+.row4 ul li{
+    padding: 5px;
+    font-size: 25px;
+}
